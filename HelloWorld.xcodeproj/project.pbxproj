@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		71435B871A16D4F70089C9D2 /* GridSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 71435B861A16D4F70089C9D2 /* GridSpec.m */; };
 		717F01C91A008E1300EF1B05 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 717F01C81A008E1300EF1B05 /* main.m */; };
 		717F01CC1A008E1300EF1B05 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 717F01CB1A008E1300EF1B05 /* AppDelegate.m */; };
 		717F01CF1A008E1300EF1B05 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 717F01CE1A008E1300EF1B05 /* ViewController.m */; };
@@ -14,6 +15,12 @@
 		717F01D41A008E1300EF1B05 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 717F01D31A008E1300EF1B05 /* Images.xcassets */; };
 		717F01D71A008E1300EF1B05 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 717F01D51A008E1300EF1B05 /* LaunchScreen.xib */; };
 		717F01E31A008E1300EF1B05 /* HelloWorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 717F01E21A008E1300EF1B05 /* HelloWorldTests.m */; };
+		7191169F1A03F62F0025EC27 /* grid.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7191169E1A03F62F0025EC27 /* grid.txt */; };
+		719116A21A0407130025EC27 /* GridParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 719116A11A0407130025EC27 /* GridParser.m */; };
+		719116A51A0435430025EC27 /* Grid.m in Sources */ = {isa = PBXBuildFile; fileRef = 719116A41A0435430025EC27 /* Grid.m */; };
+		719116A81A043E3A0025EC27 /* GridSolver.m in Sources */ = {isa = PBXBuildFile; fileRef = 719116A71A043E3A0025EC27 /* GridSolver.m */; };
+		71DA96331A16C80300FB5C28 /* GridParserSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 71DA96321A16C80300FB5C28 /* GridParserSpec.m */; };
+		C54E07112E9997971AB64770 /* libPods-HelloWorldTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7460617AA0623BE5AB5C961D /* libPods-HelloWorldTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4862D5A67CD3C1415DE94E4C /* Pods-HelloWorldTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorldTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelloWorldTests/Pods-HelloWorldTests.release.xcconfig"; sourceTree = "<group>"; };
+		71435B861A16D4F70089C9D2 /* GridSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridSpec.m; sourceTree = "<group>"; };
 		717F01C31A008E1300EF1B05 /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		717F01C71A008E1300EF1B05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		717F01C81A008E1300EF1B05 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +49,16 @@
 		717F01DC1A008E1300EF1B05 /* HelloWorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		717F01E11A008E1300EF1B05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		717F01E21A008E1300EF1B05 /* HelloWorldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldTests.m; sourceTree = "<group>"; };
+		7191169E1A03F62F0025EC27 /* grid.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = grid.txt; sourceTree = "<group>"; };
+		719116A01A0407130025EC27 /* GridParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridParser.h; sourceTree = "<group>"; };
+		719116A11A0407130025EC27 /* GridParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridParser.m; sourceTree = "<group>"; };
+		719116A31A0435430025EC27 /* Grid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Grid.h; sourceTree = "<group>"; };
+		719116A41A0435430025EC27 /* Grid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Grid.m; sourceTree = "<group>"; };
+		719116A61A043E3A0025EC27 /* GridSolver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridSolver.h; sourceTree = "<group>"; };
+		719116A71A043E3A0025EC27 /* GridSolver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridSolver.m; sourceTree = "<group>"; };
+		71DA96321A16C80300FB5C28 /* GridParserSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridParserSpec.m; sourceTree = "<group>"; };
+		7460617AA0623BE5AB5C961D /* libPods-HelloWorldTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HelloWorldTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A23CFF3FC727D500BE38C1C3 /* Pods-HelloWorldTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorldTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelloWorldTests/Pods-HelloWorldTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,18 +73,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C54E07112E9997971AB64770 /* libPods-HelloWorldTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00C61739A363547524880150 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A23CFF3FC727D500BE38C1C3 /* Pods-HelloWorldTests.debug.xcconfig */,
+				4862D5A67CD3C1415DE94E4C /* Pods-HelloWorldTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		717F01BA1A008E1300EF1B05 = {
 			isa = PBXGroup;
 			children = (
 				717F01C51A008E1300EF1B05 /* HelloWorld */,
 				717F01DF1A008E1300EF1B05 /* HelloWorldTests */,
 				717F01C41A008E1300EF1B05 /* Products */,
+				00C61739A363547524880150 /* Pods */,
+				BDA8F8D4DA6EC1B21FD254EE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -89,6 +120,12 @@
 				717F01D31A008E1300EF1B05 /* Images.xcassets */,
 				717F01D51A008E1300EF1B05 /* LaunchScreen.xib */,
 				717F01C61A008E1300EF1B05 /* Supporting Files */,
+				719116A01A0407130025EC27 /* GridParser.h */,
+				719116A11A0407130025EC27 /* GridParser.m */,
+				719116A31A0435430025EC27 /* Grid.h */,
+				719116A41A0435430025EC27 /* Grid.m */,
+				719116A61A043E3A0025EC27 /* GridSolver.h */,
+				719116A71A043E3A0025EC27 /* GridSolver.m */,
 			);
 			path = HelloWorld;
 			sourceTree = "<group>";
@@ -96,6 +133,7 @@
 		717F01C61A008E1300EF1B05 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7191169E1A03F62F0025EC27 /* grid.txt */,
 				717F01C71A008E1300EF1B05 /* Info.plist */,
 				717F01C81A008E1300EF1B05 /* main.m */,
 			);
@@ -107,6 +145,8 @@
 			children = (
 				717F01E21A008E1300EF1B05 /* HelloWorldTests.m */,
 				717F01E01A008E1300EF1B05 /* Supporting Files */,
+				71DA96321A16C80300FB5C28 /* GridParserSpec.m */,
+				71435B861A16D4F70089C9D2 /* GridSpec.m */,
 			);
 			path = HelloWorldTests;
 			sourceTree = "<group>";
@@ -117,6 +157,14 @@
 				717F01E11A008E1300EF1B05 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BDA8F8D4DA6EC1B21FD254EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7460617AA0623BE5AB5C961D /* libPods-HelloWorldTests.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,9 +191,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 717F01E91A008E1300EF1B05 /* Build configuration list for PBXNativeTarget "HelloWorldTests" */;
 			buildPhases = (
+				34FDE4DA928F4369760FA57C /* Check Pods Manifest.lock */,
 				717F01D81A008E1300EF1B05 /* Sources */,
 				717F01D91A008E1300EF1B05 /* Frameworks */,
 				717F01DA1A008E1300EF1B05 /* Resources */,
+				9BA21A65D0F4FAB1E79C83DB /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,6 +249,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7191169F1A03F62F0025EC27 /* grid.txt in Resources */,
 				717F01D21A008E1300EF1B05 /* Main.storyboard in Resources */,
 				717F01D71A008E1300EF1B05 /* LaunchScreen.xib in Resources */,
 				717F01D41A008E1300EF1B05 /* Images.xcassets in Resources */,
@@ -214,13 +265,49 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		34FDE4DA928F4369760FA57C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9BA21A65D0F4FAB1E79C83DB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloWorldTests/Pods-HelloWorldTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		717F01BF1A008E1300EF1B05 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				719116A81A043E3A0025EC27 /* GridSolver.m in Sources */,
+				719116A51A0435430025EC27 /* Grid.m in Sources */,
 				717F01CF1A008E1300EF1B05 /* ViewController.m in Sources */,
 				717F01CC1A008E1300EF1B05 /* AppDelegate.m in Sources */,
+				719116A21A0407130025EC27 /* GridParser.m in Sources */,
 				717F01C91A008E1300EF1B05 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -229,7 +316,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71DA96331A16C80300FB5C28 /* GridParserSpec.m in Sources */,
 				717F01E31A008E1300EF1B05 /* HelloWorldTests.m in Sources */,
+				71435B871A16D4F70089C9D2 /* GridSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,6 +434,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = HelloWorld/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -355,6 +445,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = HelloWorld/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -363,6 +454,7 @@
 		};
 		717F01EA1A008E1300EF1B05 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A23CFF3FC727D500BE38C1C3 /* Pods-HelloWorldTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -375,6 +467,12 @@
 				);
 				INFOPLIST_FILE = HelloWorldTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-l\"Pods-HelloWorldTests-Kiwi\"",
+					"-framework",
+					"\"XCTest\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloWorld.app/HelloWorld";
 			};
@@ -382,6 +480,7 @@
 		};
 		717F01EB1A008E1300EF1B05 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4862D5A67CD3C1415DE94E4C /* Pods-HelloWorldTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -390,6 +489,12 @@
 				);
 				INFOPLIST_FILE = HelloWorldTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-l\"Pods-HelloWorldTests-Kiwi\"",
+					"-framework",
+					"\"XCTest\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloWorld.app/HelloWorld";
 			};
@@ -414,6 +519,7 @@
 				717F01E81A008E1300EF1B05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		717F01E91A008E1300EF1B05 /* Build configuration list for PBXNativeTarget "HelloWorldTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +528,7 @@
 				717F01EB1A008E1300EF1B05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

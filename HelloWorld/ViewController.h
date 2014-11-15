@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Grid.h"
 
 @interface ViewController : UIViewController
-
-
+@property (nonatomic, strong) NSMutableArray* labels;
+@property (nonatomic, strong) Grid* grid;
+@property (nonatomic, weak) IBOutlet UITextField* wordInput;
 @end
 
